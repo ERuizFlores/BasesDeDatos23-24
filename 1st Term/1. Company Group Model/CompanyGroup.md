@@ -1,0 +1,3 @@
+Regarding the following premises build an appropriate ER Diagram:
+
+A <u>group</u> has several <u>companies</u>, whereas a company belongs to one group. Companies are connected by a hierarchical structure; each subsidiary is assigned to exactly one company of the next higher hierarchy level, the parent company. Each company has several plants; a plant belongs to one company only. A plant produces many <u>items</u>. An item is only produced in one of the plants.
