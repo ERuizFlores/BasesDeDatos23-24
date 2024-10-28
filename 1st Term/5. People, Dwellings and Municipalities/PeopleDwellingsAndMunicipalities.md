@@ -1,0 +1,1 @@
+We have to create an ER model that meets these needs in terms of municipalities, dwellings and people. Each person can only live in one dwelling and be registered in one municipality, but can own several dwellings. We are interested in the people who depend on the head of the household. Design decisions must be justified.
