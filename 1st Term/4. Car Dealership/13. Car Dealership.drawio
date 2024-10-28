@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2023-10-20T03:28:41.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="DF7FfL3j7vTjZQBLWbQb" version="22.0.5" type="google">
+  <diagram name="Page-1" id="zmJI3VYptIbnRqCDvF6v">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-1" value="salesperson (&lt;u&gt;staffID&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-7" value="car (&lt;u&gt;serialNumber&lt;/u&gt; , salesInvoice , &lt;i&gt;staffID&lt;/i&gt; , &lt;i&gt;ID&lt;/i&gt; , customerInvoice?)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-10" value="serviceCar (&lt;u&gt;&lt;i&gt;serialNumber&lt;/i&gt;&lt;/u&gt; , &lt;u&gt;&lt;i&gt;ID&lt;/i&gt;&lt;/u&gt; , ticket)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-11" value="workOnCar (&lt;u&gt;&lt;i&gt;serialNumber&lt;/i&gt;&lt;/u&gt; , &lt;u&gt;&lt;i&gt;mechanicID&lt;/i&gt;&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-12" value="mechanic (&lt;u&gt;mechanicID&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-13" value="customer (&lt;u&gt;ID&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-14" value="carNeedsParts (&lt;u&gt;&lt;i&gt;serialNumber&lt;/i&gt;&lt;/u&gt; , &lt;u&gt;&lt;i&gt;partID&lt;/i&gt;&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-15" value="parts (&lt;u&gt;partID&lt;/u&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.592;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="TI2p_wpW2ft8EDROJjQA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="260" y="70" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.675;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.603;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TI2p_wpW2ft8EDROJjQA-7" target="TI2p_wpW2ft8EDROJjQA-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.206;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TI2p_wpW2ft8EDROJjQA-10" target="TI2p_wpW2ft8EDROJjQA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.658;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.586;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TI2p_wpW2ft8EDROJjQA-10" target="TI2p_wpW2ft8EDROJjQA-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.411;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.153;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TI2p_wpW2ft8EDROJjQA-11" target="TI2p_wpW2ft8EDROJjQA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.697;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.561;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TI2p_wpW2ft8EDROJjQA-11" target="TI2p_wpW2ft8EDROJjQA-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-23" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.536;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.094;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TI2p_wpW2ft8EDROJjQA-14" target="TI2p_wpW2ft8EDROJjQA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TI2p_wpW2ft8EDROJjQA-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.572;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TI2p_wpW2ft8EDROJjQA-14" target="TI2p_wpW2ft8EDROJjQA-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="410" as="sourcePoint" />
+            <mxPoint x="270" y="360" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
